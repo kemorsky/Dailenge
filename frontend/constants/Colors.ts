@@ -8,27 +8,31 @@ const tintColorDark = "#fff";
 
 export const Colors = {
   light: {
-    text: "#11181C",
-    background: "#fff",
-    card: "#CCD5AE",
+    text: "#0f172a",
+    background: "hsl(0, 0%, 100%)",
+    card: "hsl(210, 60%, 90%)",
     tabTint: tintColorLight,
-    icon: "#687076",
-    tabIconDefault: "#687076",
+    icon: "hsl(206, 6%, 44%)",
+    tabIconDefault: "hsl(206, 6%, 44%)",
     tabIconSelected: tintColorLight,
-    wrapperBackground: "#E9EDC9", // #EEE5BF
-    buttonBackground: "#2c1a1a",
-    border: "#aaad8c"
+    wrapperBackground: "hsl(210, 40%, 98%)", // #EEE5BF
+    buttonBackground: "#2563eb",
+    border: "hsl(214, 95%, 93%)",
   },
   dark: {
-    text: "rgba(255, 255, 255, 0.9)",
-    background: "#212c31ff",
-    card: "#212934",
+    text: "#e2e8f0",
+    background: "hsl(199, 20%, 16%)",
+    card: "hsl(229, 75%, 12%)",
     tabTint: tintColorDark,
-    icon: "#9BA1A6",
-    tabIconDefault: "#9BA1A6",
+    icon: "hsl(207, 6%, 63%)",
+    tabIconDefault: "hsl(207, 6%, 63%)",
     tabIconSelected: tintColorDark,
-    wrapperBackground: "#151F2B",
-    buttonBackground: "#9088ffff",
-    border: "#293c53"
+    wrapperBackground: "hsl(229, 84%, 5%)",
+    buttonBackground: "hsl(217, 91%, 60%)",
+    border: "hsl(224, 64%, 33%)",
   },
 };
+
+// #006452 - login + signup button color
+// #FF614D - error text color
+// #00C271 - success color

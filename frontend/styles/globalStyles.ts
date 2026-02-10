@@ -10,14 +10,13 @@ export const useGlobalStyles = () => {
             backgroundColor: theme.colors.background,
             flex: 1,
             minHeight: 752,
-            paddingBottom: 80,
         },
         card: {
             backgroundColor: theme.colors.card,
             flexDirection: "column",
             justifyContent: "flex-start",
             padding: 8,
-            borderRadius: 8
+            borderRadius: 8,
         },
         headerImage: {
             color: "#fafafa",
@@ -26,7 +25,7 @@ export const useGlobalStyles = () => {
             position: "absolute"
         },
         container: {
-            padding: 12,
+            padding: 16,
             width: "100%",
             flexDirection: "column",
             gap: 12,
@@ -65,7 +64,7 @@ export const useGlobalStyles = () => {
             alignSelf: "flex-end",
             padding: 8,
             borderRadius: 8,
-            boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            boxShadow: `2px 2px 4px ${theme.colors.border}`,
             backgroundColor: theme.colors.primary,
             pointerEvents: "auto"
         },
@@ -88,9 +87,10 @@ export const useGlobalStyles = () => {
         },
         onboardingWrapper: {
             flexDirection: "column",
-            alignItems: "center",
+            alignItems: "flex-start",
             justifyContent: "flex-start",
-            gap: 24
+            gap: 24,
+            padding: 16
         },
 
         // paginator
@@ -100,7 +100,7 @@ export const useGlobalStyles = () => {
             justifyContent: "space-between",
             alignItems: "flex-end",
             gap: 24,
-            paddingHorizontal: 12
+            paddingHorizontal: 16
         },
         dot: {
             height: 20,
@@ -129,7 +129,7 @@ export const useGlobalStyles = () => {
 
         statsCard: {
             backgroundColor: theme.colors.card,
-            width: 170, 
+            width: 164, 
             height: 80, 
             padding: 8, 
             justifyContent: "space-between",
@@ -251,7 +251,6 @@ export const useGlobalStyles = () => {
             justifyContent: "space-between",
             alignItems: "center",
             padding: 8,
-            borderRadius: 8,
         },
         challengeItem: {
             flexDirection: "row",
@@ -288,8 +287,9 @@ export const useGlobalStyles = () => {
             borderRadius: 8,
         },
         buttonSignOut: {
+            marginTop: 80,
             width: 120, 
-            alignItems: "center", 
+            alignItems: "center",
             backgroundColor: theme.colors.primary,
             justifyContent: "center", 
             alignSelf: "center", 

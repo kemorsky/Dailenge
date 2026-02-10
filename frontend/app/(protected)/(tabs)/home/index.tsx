@@ -98,7 +98,7 @@ export default function HomeScreen() {
       </Container>
       <Container>
         <ThemedText type="subtitle">{t("home.subtitles.previousChallenges")}</ThemedText>
-        <View style={[globalStyles.card, { minHeight: 128, paddingVertical: 0 }]}>
+        <View style={[globalStyles.card, { minHeight: 128, paddingVertical: 0, }]}>
           {completedChallenges > 0 ? (
             <FlatList
               data={recentChallenges}

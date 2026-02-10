@@ -154,7 +154,7 @@ export const BottomSheetViewChallenge = () => {
             </> :
             <View style={styles.editButtonsContainer}>
               <Pressable style={({pressed}) => [{ opacity: pressed ? 0.7 : 1 }, styles.editButtons, { backgroundColor: theme.colors.background}]} onPress={() => setEdit(!edit)}>
-                <ThemedText type="buttonText" style={{ color: "#ff2c2c" }}>
+                <ThemedText type="buttonText" style={{ color: "#FF614D" }}>
                   {t("tabs.challenges.cancel")}
                 </ThemedText>
               </Pressable>
@@ -169,7 +169,7 @@ export const BottomSheetViewChallenge = () => {
           {!edit && 
             <Pressable style={({pressed}) => [{ opacity: pressed ? 0.7 : 1 }, styles.bottomSheetDeleteButton, { backgroundColor: theme.colors.background }]} 
                         onPress={() => handleDeleteChallenge(state.challenge?.id ?? "")}>
-              <ThemedText type="buttonText" style={{color: "#ff2c2c", fontFamily: "PoppinsSemiBold"}}>
+              <ThemedText type="buttonText" style={{color: "#FF614D", fontFamily: "PoppinsSemiBold"}}>
                 {t("tabs.challenges.deleteButton")}
               </ThemedText>
             </Pressable>

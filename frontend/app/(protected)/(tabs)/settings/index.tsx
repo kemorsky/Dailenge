@@ -38,9 +38,7 @@ export default function Settings() {
                             <ThemedText> {user?.email}</ThemedText>
                         </ThemedText>
                     </View>
-                    <Pressable style={({pressed}) => [{ opacity: pressed ? 0.7 : 1 }, globalStyles.buttonSignOut ]} onPress={logOut}>
-                        <ThemedText type="buttonText">{t("tabs.settings.button")}</ThemedText>
-                    </Pressable>
+                    
                 </View>
             </Container>
             <Container>
@@ -66,6 +64,13 @@ export default function Settings() {
                             <Feather name="arrow-right" size={16} color={theme.colors.text} />
                         </View>
                     </SettingsOption>
+                </View>
+            </Container>
+            <Container>
+                <View style={[globalStyles.settingsList, { alignItems: "center" }]}>
+                    <Pressable style={({pressed}) => [{ opacity: pressed ? 0.7 : 1 }, globalStyles.setting ]} onPress={logOut}>
+                        <ThemedText type="buttonText" style={{ color: "#FF614D"}}>{t("tabs.settings.button")}</ThemedText>
+                    </Pressable>
                 </View>
             </Container>
         </Wrapper>

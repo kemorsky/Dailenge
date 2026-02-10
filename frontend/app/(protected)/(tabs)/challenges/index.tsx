@@ -95,7 +95,7 @@ export default function Challenges() {
                         style={({pressed}) => [{ opacity: pressed ? 0.7 : 1 }, globalStyles.createChallengeButton]}
                         onPress={() => createChallenge()}>
               <MaterialIcons name="add" size={24} color="white" />
-              <ThemedText type="buttonText">{t("tabs.challenges.createButton")}</ThemedText>
+              <ThemedText type="buttonText" >{t("tabs.challenges.createButton")}</ThemedText>
             </Pressable>
           </View>
           
@@ -158,7 +158,7 @@ export default function Challenges() {
                                   }}>
                           <View style={globalStyles.challengeItem}>
                             <ChallengeIcon type={item.done ? "complete" : "incomplete"} />
-                            <ThemedText type="challengeTitle" style={{color: item?.done === false ? "#5a5a5aff" : theme.colors.text }}>
+                            <ThemedText type="challengeTitle" style={{color: item?.done === false ? "#64748b" : theme.colors.text, maxWidth: 265 }}>
                               {item?.challenge.title}
                             </ThemedText>
                           </View>
@@ -189,9 +189,7 @@ const styles = StyleSheet.create({
   challengeIconsContainer: {
     flexDirection: "row", 
     alignItems: "flex-start", 
-    alignSelf: "flex-start", 
-    justifyContent: "center", 
-    gap: 6, 
+    justifyContent: "space-between", 
     marginBottom: 20
   },
   challengeIcon: {

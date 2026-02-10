@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     fontFamily: "PoppinsBold"
   },
   date: {
-    color: "#808080",
+    color: "#64748b",
     fontSize: 16,
     fontFamily: "PoppinsSemiBold"
   },
@@ -111,6 +111,6 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 14,
     fontFamily: "PoppinsRegular",
-    color: "#ffffff"
+    color: "#e2e8f0"
   }
 });

@@ -8,7 +8,7 @@ export const slides = [
     },
     {
         id: "2",
-        title: "Create your own challenges",
+        title: "Create your own",
         description: 
             "On top of challenges provided by the app, you can create your own and customize them to your personal needs.",
         image: require("../assets/images/slide2.png"),

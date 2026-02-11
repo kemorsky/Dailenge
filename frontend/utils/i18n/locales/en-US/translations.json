@@ -22,8 +22,8 @@
   "forgotPassword": {
     "title": "Request Password Reset",
     "email": "E-mail",
-    "sendEmailButton": "Send Reset E-mail",
-    "successMessage": "Password reset request was successful. Please check yor e-mail and follow the instructions.",
+    "sendEmailButton": "Request Reset",
+    "successMessage": "Password reset request was successful. Please check yor e-mail and follow the instructions. Functionality is purely for show as Expo makes it impossible to send a link that leads directly to the app. If password reset is needed please contact me directly.",
     "noInput": "Please enter an e-mail address."
   },
   "resetPassword": {

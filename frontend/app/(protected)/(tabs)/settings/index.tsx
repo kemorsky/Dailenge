@@ -27,7 +27,7 @@ export default function Settings() {
         <Wrapper>
             <Container>
                 <View style={globalStyles.userRundown}>
-                    <View style={styles.profilePicture}>
+                    <View style={[styles.profilePicture, {borderColor: theme.colors.border }]}>
                         <Image style={[styles.profilePictureImage, { resizeMode: "cover" } ]} source={require("../../../../assets/images/profile-picture.png")}/>
                     </View>
                     <View style={styles.userRundown}>
@@ -68,7 +68,7 @@ export default function Settings() {
             </Container>
             <Container>
                 <View style={[globalStyles.settingsList, { alignItems: "center" }]}>
-                    <Pressable style={({pressed}) => [{ opacity: pressed ? 0.7 : 1 }, globalStyles.setting ]} onPress={logOut}>
+                    <Pressable style={({pressed}) => [{ opacity: pressed ? 0.7 : 1 }, globalStyles.setting, { width: "100%", alignItems: "center", justifyContent: "center"} ]} onPress={logOut}>
                         <ThemedText type="buttonText" style={{ color: "#FF614D"}}>{t("tabs.settings.button")}</ThemedText>
                     </Pressable>
                 </View>
@@ -82,14 +82,15 @@ const styles = StyleSheet.create({
         width: 80, 
         height: 80, 
         borderRadius: 999, 
-        borderWidth: 1, 
-        borderColor: "#2b00ec", 
-        alignSelf: "center", 
-        overflow: "hidden" 
+        borderWidth: 2, 
+        alignSelf: "center",
+        alignItems: "center",
+        justifyContent: "center",
+        overflow: "hidden"
     },
     profilePictureImage: { 
         width: 80, 
-        height: 80 
+        height: 80,
     },
     userRundown: {
         flexDirection: "column",

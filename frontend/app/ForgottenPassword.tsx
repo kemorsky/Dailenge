@@ -43,7 +43,7 @@ export default function ForgottenPassword() {
                         }}
                         autoCapitalize="none"
                     />
-                    <Pressable onPress={handleRequestPasswordReset}>
+                    <Pressable style={globalStyles.buttonAction} onPress={handleRequestPasswordReset}>
                         <ThemedText>{t("forgotPassword.sendEmailButton")}</ThemedText>
                     </Pressable>
                     {error && <ThemedText>{error.message}</ThemedText>}

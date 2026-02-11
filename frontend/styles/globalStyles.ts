@@ -10,6 +10,7 @@ export const useGlobalStyles = () => {
             backgroundColor: theme.colors.background,
             flex: 1,
             minHeight: 752,
+            paddingBottom: 80
         },
         card: {
             backgroundColor: theme.colors.card,
@@ -76,7 +77,9 @@ export const useGlobalStyles = () => {
         },
         checkbox: {
             width: 30,
-            height: 30
+            height: 30,
+            borderRadius: 8,
+            fontSize: 1
         },
 
         // onboarding
@@ -87,8 +90,8 @@ export const useGlobalStyles = () => {
         },
         onboardingWrapper: {
             flexDirection: "column",
-            alignItems: "flex-start",
-            justifyContent: "flex-start",
+            alignItems: "center",
+            justifyContent: "center",
             gap: 24,
             padding: 16
         },
@@ -170,7 +173,7 @@ export const useGlobalStyles = () => {
             borderWidth: 1,
             borderRadius: 4,
             borderColor: "#375375",
-            boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            boxShadow: `2px 2px 4px ${theme.colors.border}`,
         },
         acceptButton: {
             height: 40,
@@ -181,7 +184,7 @@ export const useGlobalStyles = () => {
             alignItems: "center",
             padding: 8,
             borderRadius: 4,
-            boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            boxShadow: `2px 2px 4px ${theme.colors.border}`,
         },
 
         // mark challenge as done modal
@@ -234,7 +237,8 @@ export const useGlobalStyles = () => {
             justifyContent: "center",
             gap: 4,
             padding: 8,
-            borderRadius: 8
+            borderRadius: 8,
+            // boxShadow: `2px 2px 4px ${theme.colors.border}`,
         },
         challengesContainer: {
             width: "100%",

@@ -137,7 +137,7 @@ export const BottomSheetViewChallenge = () => {
                 style={globalStyles.checkbox}
                 value={checkbox}
                 onValueChange={setCheckbox}
-                color={checkbox ? '#4630EB' : undefined}
+                color={checkbox ? 'hsl(217, 91%, 60%)' : undefined}
             />
             <ThemedText>{t("home.completeChallenge.checkboxText")}</ThemedText> 
             </>}

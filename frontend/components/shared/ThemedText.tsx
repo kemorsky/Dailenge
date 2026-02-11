@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   error: {
     fontSize: 14,
     fontFamily: "PoppinsMedium",
-    color: "#f82a2a"
+    color: "#ff2c2c"
   },
   signInPageTexts: {
     fontSize: 14,

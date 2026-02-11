@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import { router, useLocalSearchParams } from "expo-router";
 import { useResetPassword } from "@/api/user/userMutations";
 import { Wrapper } from "@/components/shared/Wrapper";
-import { Container } from "@/components/shared/Container";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useGlobalStyles } from "@/styles/globalStyles";
@@ -85,7 +84,7 @@ export default function ResetPassword() {
                             secureTextEntry={!showPassword}
                         />
                         </View>
-                    <Pressable onPress={handleResetPassword}>
+                    <Pressable style={globalStyles.buttonAction} onPress={handleResetPassword}>
                         <ThemedText>{t("resetPassword.button")}</ThemedText>
                     </Pressable>
                 </View>

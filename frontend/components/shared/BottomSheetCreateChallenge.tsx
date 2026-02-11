@@ -71,7 +71,7 @@ export const BottomSheetCreateChallenge = () => {
                             onValueChange={(value) =>
                                 setCheckbox(prev => ({ ...prev, repeatable: value }))
                             }
-                            color={checkbox.repeatable ? '#4630EB' : undefined}
+                            color={checkbox.repeatable ? 'hsl(217, 91%, 60%)' : undefined}
                         />
                         <ThemedText>{t("home.completeChallenge.checkboxText")}</ThemedText>
                     </View>

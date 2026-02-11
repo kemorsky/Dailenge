@@ -48,7 +48,7 @@ export default function HomeScreen() {
             {currentChallenge ? (
               <>
                 <ThemedText style={{ maxWidth: 300 }} type="challenge">{currentChallenge.challenge.title}</ThemedText>
-                <Pressable style={globalStyles.buttonAction} onPress={() => setOpenModal(true)}>
+                <Pressable style={({pressed}) => [{ opacity: pressed ? 0.7 : 1 }, globalStyles.buttonAction]} onPress={() => setOpenModal(true)}>
                   <ThemedText>{t("home.challengeCard.markAsDoneButton")}</ThemedText>
                 </Pressable>
               </>

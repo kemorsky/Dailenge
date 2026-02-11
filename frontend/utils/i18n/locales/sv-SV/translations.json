@@ -23,7 +23,7 @@
     "title": "Återkomma Lösenord",
     "email": "E-post",
     "sendEmailButton": "Skicka Meddelandet",
-    "successMessage": "Lösenord återkomning lyckades. Kontrollera din e-post och följa instruktionerna.",
+    "successMessage": "Lösenord återkomning lyckades. Kontrollera din e-post och följa instruktionerna. Funktionen bara skickar ett meddelande till din e-postadress för att Expo gör det omöjligt att skicka en direkt länk. Om du behöveråterkomma ditt lösenord, kontakta mig direkt.",
     "noInput": "Sätt till en e-postadress."
   },
   "resetPassword": {
@@ -57,7 +57,7 @@
     "completeChallenge": {
       "title": "Klara Utmaningen",
       "inputPlaceholder": "Lägg till noteringar till utmaningen (ej krav)",
-      "checkboxText": "Gör denna utmaning upprepbar",
+      "checkboxText": "Gör denna utmaning upprepande",
       "button": "Markera som klart"
     }
   },
@@ -70,7 +70,7 @@
       "createButton": "Skapa Utmaning",
       "completed": "Klarade",
       "notCompleted": "Ej klarade",
-      "repeatable": "Upprepbar",
+      "repeatable": "Upprepande",
       "editButton": "Redigera",
       "cancel": "Avbryt",
       "save": "Spara",

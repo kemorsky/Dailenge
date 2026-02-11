@@ -57,4 +57,4 @@ Lastly I find it necessary to note that it has been, most and foremost, a humbli
 4. Use the App
 
 ## Video Showcase
-- tbc
+[![Watch the video](https://img.youtube.com/vi/_b70n12JqkY/hqdefault.jpg)](https://www.youtube.com/shorts/_b70n12JqkY)

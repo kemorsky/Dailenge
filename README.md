@@ -51,9 +51,11 @@ I also got to learn a lot about React Native and how apps are truly built and op
 Lastly I find it necessary to note that it has been, most and foremost, a humbling experience. It showed me flaws in my planning, ability to visualise UI on smaller screens, as well as taught me to never let things stay in their placeholder stage longer than necessary - I still find myself stumbling across styling written purely inside an object, rather than a style variable. Once something passes the test it should be instantly improved and corrected, especially as the scale of the project grows with each day. I will do better next time.
 
 ## Running The Project
-1. Download the Expo Go App to your iOS device (Android should work too, but the app was never tested in its environment)
+1. Download the Expo Go App on your iOS device (Android should work too, but the app was never tested in its environment)
 2. Open up the Camera
-3. Scan this QR Code: (cobe TBD)
+3. Scan this QR Code:
+  <img width="277" height="271" alt="code" src="https://github.com/user-attachments/assets/d0db78ea-1dfe-4a89-92c1-2bdf7bdb68f9" />
+  
 4. Use the App
 
 ## Video Showcase
